@@ -1,0 +1,7 @@
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp1\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp1\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache

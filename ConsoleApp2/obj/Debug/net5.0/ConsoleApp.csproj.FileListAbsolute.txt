@@ -1,0 +1,16 @@
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\bin\Debug\net5.0\ConsoleApp.exe
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\bin\Debug\net5.0\ConsoleApp.deps.json
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\bin\Debug\net5.0\ConsoleApp.runtimeconfig.json
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\bin\Debug\net5.0\ConsoleApp.runtimeconfig.dev.json
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\bin\Debug\net5.0\ConsoleApp.dll
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\bin\Debug\net5.0\ref\ConsoleApp.dll
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\bin\Debug\net5.0\ConsoleApp.pdb
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.dll
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ref\ConsoleApp.dll
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.pdb
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache

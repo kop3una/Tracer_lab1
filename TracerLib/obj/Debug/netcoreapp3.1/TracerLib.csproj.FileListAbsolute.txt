@@ -1,0 +1,10 @@
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\bin\Debug\netcoreapp3.1\TracerLib.deps.json
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\bin\Debug\netcoreapp3.1\TracerLib.dll
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\bin\Debug\netcoreapp3.1\TracerLib.pdb
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\obj\Debug\netcoreapp3.1\TracerLib.csprojAssemblyReference.cache
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\obj\Debug\netcoreapp3.1\TracerLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\obj\Debug\netcoreapp3.1\TracerLib.AssemblyInfoInputs.cache
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\obj\Debug\netcoreapp3.1\TracerLib.AssemblyInfo.cs
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\obj\Debug\netcoreapp3.1\TracerLib.csproj.CoreCompileInputs.cache
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\obj\Debug\netcoreapp3.1\TracerLib.dll
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\TracerLib\obj\Debug\netcoreapp3.1\TracerLib.pdb
