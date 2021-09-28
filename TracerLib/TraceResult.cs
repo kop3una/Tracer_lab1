@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace TracerLib
 {
-    class TraceResult
+    public class TraceResult
     {
+        private int id;
+        private double executionTime;
+
+        public int getId()
+        {
+            return id;
+        }
+        public void setId(int id)
+        {
+            this.id = id;
+        }
     }
 }

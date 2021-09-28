@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "TracerLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/TracerLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TracerLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TracerLib/1.0.0": {
+      "type": "project",
+      "path": "../TracerLib/TracerLib.csproj",
+      "msbuildProject": "../TracerLib/TracerLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "TracerLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kiril\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kiril\\OneDrive\\Рабочий стол\\Учеба\\3 курс\\СПП\\lab1\\TracerLib\\TracerLib.csproj": {
+              "projectPath": "C:\\Users\\kiril\\OneDrive\\Рабочий стол\\Учеба\\3 курс\\СПП\\lab1\\TracerLib\\TracerLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

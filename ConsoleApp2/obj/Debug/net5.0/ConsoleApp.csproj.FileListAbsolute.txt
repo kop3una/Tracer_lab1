@@ -14,3 +14,6 @@ C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab
 C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ref\ConsoleApp.dll
 C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.pdb
 C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\bin\Debug\net5.0\TracerLib.dll
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\bin\Debug\net5.0\TracerLib.pdb
+C:\Users\kiril\OneDrive\Рабочий стол\Учеба\3 курс\СПП\lab1\ConsoleApp2\obj\Debug\net5.0\ConsoleApp.csproj.CopyComplete

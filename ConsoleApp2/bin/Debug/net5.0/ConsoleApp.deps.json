@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "TracerLib": "1.0.0"
+        },
         "runtime": {
           "ConsoleApp.dll": {}
+        }
+      },
+      "TracerLib/1.0.0": {
+        "runtime": {
+          "TracerLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TracerLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

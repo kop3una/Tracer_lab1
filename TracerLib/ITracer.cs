@@ -9,6 +9,6 @@ namespace TracerLib
         // вызывается в конце замеряемого метода 
         void StopTrace();
         // получить результаты измерений  
-        //TraceResult GetTraceResult();
+        TraceResult GetTraceResult();
     }
 }

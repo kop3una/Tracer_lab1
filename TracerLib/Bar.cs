@@ -8,5 +8,22 @@ namespace TracerLib
 {
     class Bar
     {
+        private ITracer tracer;
+
+        internal Bar(ITracer tracer)
+        {
+            this.tracer = tracer;
+        }
+
+        public void InnerMethod()
+        {
+            int counter = 0;
+            tracer.StartTrace();
+            while (counter <= 0)
+            {
+                counter++;
+            }
+            tracer.StopTrace();
+        }
     }
 }
