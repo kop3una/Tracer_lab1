@@ -1,67 +1,67 @@
 {
   "threads": [
     {
-      "id": 1,
-      "time": 1374.0,
+      "id": 5,
+      "time": 1033.0,
       "methods": [
         {
-          "name": "MyMethod",
-          "class": "Foo",
-          "time": 245,
+          "name": "startTracerInNewThread",
+          "class": "Program",
+          "time": 282,
           "methods": [
             {
-              "name": "InnerMethod",
-              "class": "Bar",
-              "time": 239
-            }
-          ]
-        },
-        {
-          "name": "MyMethod",
-          "class": "Foo",
-          "time": 234,
-          "methods": [
-            {
-              "name": "InnerMethod",
-              "class": "Bar",
-              "time": 234
-            }
-          ]
-        },
-        {
-          "name": "MyMethod",
-          "class": "Foo",
-          "time": 211,
-          "methods": [
-            {
-              "name": "InnerMethod",
-              "class": "Bar",
-              "time": 211
+              "name": "MyMethod",
+              "class": "Foo",
+              "time": 252,
+              "methods": [
+                {
+                  "name": "InnerMethod",
+                  "class": "Bar",
+                  "time": 247
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "id": 5,
-      "time": 914.0,
+      "id": 1,
+      "time": 1432.0,
       "methods": [
         {
-          "name": "startTracerInNewThread",
-          "class": "Program",
-          "time": 260,
+          "name": "MyMethod",
+          "class": "Foo",
+          "time": 248,
           "methods": [
             {
-              "name": "MyMethod",
-              "class": "Foo",
-              "time": 218,
-              "methods": [
-                {
-                  "name": "InnerMethod",
-                  "class": "Bar",
-                  "time": 218
-                }
-              ]
+              "name": "InnerMethod",
+              "class": "Bar",
+              "time": 248
+            }
+          ]
+        },
+        {
+          "name": "MyMethod",
+          "class": "Foo",
+          "time": 237,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "Bar",
+              "time": 237
+            }
+          ]
+        },
+        {
+          "name": "MyMethod",
+          "class": "Foo",
+          "time": 231,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "Bar",
+              "time": 231
             }
           ]
         }

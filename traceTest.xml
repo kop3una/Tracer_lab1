@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<threads>
+  <thread id="1" time="100">
+    <method name="myMethod" class="MyClass" time="100" />
+  </thread>
+</threads>

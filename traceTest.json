@@ -1,0 +1,16 @@
+{
+  "threads": [
+    {
+      "id": 1,
+      "time": 100.0,
+      "methods": [
+        {
+          "name": "myMethod",
+          "class": "MyClass",
+          "time": 100,
+          "methods": []
+        }
+      ]
+    }
+  ]
+}

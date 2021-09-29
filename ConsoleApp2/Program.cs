@@ -6,7 +6,7 @@ using TracerLib;
 
 namespace ConsoleApp
 {
-    class Program
+    public class Program
     {
 
         public void startTracerInNewThread(object o)
@@ -24,13 +24,13 @@ namespace ConsoleApp
             Tracer tracer = new Tracer();
             Program program = new Program();
             Thread thread = new Thread(new ParameterizedThreadStart(program.startTracerInNewThread));
+            thread.Start(tracer);
+            thread.Join();
             Foo foo = new Foo(tracer);
             foo.MyMethod();
             foo.MyMethod();
             Foo foo1 = new Foo(tracer);
             foo1.MyMethod();
-            thread.Start(tracer);
-            thread.Join();
             TraceResult traceResult = tracer.GetTraceResult();
             ISerialize XML = new XMLSerialize();
             ISerialize JSON = new JSONSerialize();
