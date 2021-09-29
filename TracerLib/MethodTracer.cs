@@ -19,6 +19,11 @@ namespace TracerLib
             return methodInfoList;
         }
 
+        public long getExecutionTime()
+        {
+            return stopwatch.ElapsedMilliseconds;
+        }
+
         public TraceResult GetTraceResult()
         {
             throw new NotImplementedException();

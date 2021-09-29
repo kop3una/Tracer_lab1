@@ -5,21 +5,20 @@ using System.Diagnostics;
 namespace TracerLib
 {
     public class MethodInfo {
-      //  StackTrace stackTrace = new StackTrace();
-      //  public string name = stackTrace.GetFrame(1).GetMethod.getName();
+       public string name;
         public string className;
         public long executionTime;
         public List<MethodInfo> childMethods;
 
-        //public string getName()
-        //{
-        //    return name;
-        //} 
+       public string getName()
+        {
+            return name;
+        } 
 
-        //public void setName(string name)
-        //{
-        //    this.name = name;
-        //}
+        public void setName(string name)
+        {
+          this.name = name;
+       }
 
         public string getClassName()
         {
