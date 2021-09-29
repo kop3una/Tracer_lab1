@@ -22,7 +22,7 @@ namespace TracerLib
             this.threadId = threadId;
         }
 
-        public List<MethodInfo> GetThreadMethodList()
+        public List<MethodInfo> GetMethodInfoList()
         {
             return methodInfoList;
         }
@@ -60,7 +60,7 @@ namespace TracerLib
             }
             else
             {
-                methodInfoList.Add(methodInfo);
+                this.methodInfoList.Add(methodInfo);
                 currentMethodTracer = null;
             }
         }
