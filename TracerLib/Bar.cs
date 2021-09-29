@@ -19,7 +19,7 @@ namespace TracerLib
         {
             int counter = 0;
             tracer.StartTrace();
-            while (counter <= 0)
+            while (counter <= 100000000)
             {
                 counter++;
             }

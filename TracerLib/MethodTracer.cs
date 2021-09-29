@@ -6,7 +6,7 @@ namespace TracerLib
 {
     public class MethodTracer : ITracer
     {
-        private Stopwatch stopwatch = new Stopwatch();
+        private Stopwatch stopwatch;
         private List<MethodInfo> methodInfoList = new List<MethodInfo>();
 
         public void addChildMethod(MethodInfo childMethod)
@@ -31,6 +31,7 @@ namespace TracerLib
 
         public void StartTrace()
         {
+            stopwatch = new Stopwatch();
             stopwatch.Start();
         }
 

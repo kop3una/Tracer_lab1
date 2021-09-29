@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 using System.Threading;
 using TracerLib;
 
@@ -12,9 +13,10 @@ namespace ConsoleApp
         {
             Tracer tracer = (Tracer)o;
             tracer.StartTrace();
-            Thread.Sleep(1000);
+            Thread.Sleep(10);
             Foo foo = new Foo(tracer);
             foo.MyMethod();
+            Thread.Sleep(10);
             tracer.StopTrace();
         }
         static void Main()
@@ -25,10 +27,15 @@ namespace ConsoleApp
             Foo foo = new Foo(tracer);
             foo.MyMethod();
             foo.MyMethod();
+            Foo foo1 = new Foo(tracer);
+            foo1.MyMethod();
             thread.Start(tracer);
             thread.Join();
             TraceResult traceResult = tracer.GetTraceResult();
-            //Console.WriteLine(stackTrace.GetFrame(0).GetMethod().Name);
+            ISerialize XML = new XMLSerialize();
+            string xml = XML.serialize(traceResult); 
+            Console.WriteLine(xml);
+            File.WriteAllText("C://Users//kiril//OneDrive//Рабочий стол//Учеба//3 курс//СПП//trace.xml", xml);
             Console.ReadKey();
         }
     }

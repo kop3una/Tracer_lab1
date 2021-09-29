@@ -39,11 +39,12 @@ namespace TracerLib
         {
             get
             {
-                if (methodsList.Count > 0)
+                long time = 0;
+                foreach (MethodInfo methodInfo in methodsList)
                 {
-                    executionTime = SummMethodsExecutionTime(methodsList[0]); // check
+                    time += SummMethodsExecutionTime(methodInfo);
                 }
-                return executionTime;
+                return time;
             }
             set
             {
