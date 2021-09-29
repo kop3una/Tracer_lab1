@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "o0aeRqmAKRzr9Mzc0eF64rfOf9De4UIGk0DVkGph6/3j2//y+zseekHgzLT5ORGtEKDm/2iu7TRwmCo6Akm84w==",
+  "dgSpecHash": "4x0Jz2gv3CAKa0Bse8taNQTCxNEs5c8uxd19BPw+0Axiukp4Mq8P/WalKYbpkwVLUDlIhVLKBhFKbGjpGVv0aA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kiril\\OneDrive\\Рабочий стол\\Учеба\\3 курс\\СПП\\lab1\\TracerLib\\TracerLib.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kiril\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

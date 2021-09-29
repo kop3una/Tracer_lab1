@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+<threads>
+  <thread id="1" time="1374">
+    <method name="MyMethod" class="Foo" time="245">
+      <method name="InnerMethod" class="Bar" time="239" />
+    </method>
+    <method name="MyMethod" class="Foo" time="234">
+      <method name="InnerMethod" class="Bar" time="234" />
+    </method>
+    <method name="MyMethod" class="Foo" time="211">
+      <method name="InnerMethod" class="Bar" time="211" />
+    </method>
+  </thread>
+  <thread id="5" time="914">
+    <method name="startTracerInNewThread" class="Program" time="260">
+      <method name="MyMethod" class="Foo" time="218">
+        <method name="InnerMethod" class="Bar" time="218" />
+      </method>
+    </method>
+  </thread>
+</threads>

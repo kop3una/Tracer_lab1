@@ -1,0 +1,71 @@
+{
+  "threads": [
+    {
+      "id": 1,
+      "time": 1374.0,
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "Foo",
+          "time": 245,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "Bar",
+              "time": 239
+            }
+          ]
+        },
+        {
+          "name": "MyMethod",
+          "class": "Foo",
+          "time": 234,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "Bar",
+              "time": 234
+            }
+          ]
+        },
+        {
+          "name": "MyMethod",
+          "class": "Foo",
+          "time": 211,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "Bar",
+              "time": 211
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "time": 914.0,
+      "methods": [
+        {
+          "name": "startTracerInNewThread",
+          "class": "Program",
+          "time": 260,
+          "methods": [
+            {
+              "name": "MyMethod",
+              "class": "Foo",
+              "time": 218,
+              "methods": [
+                {
+                  "name": "InnerMethod",
+                  "class": "Bar",
+                  "time": 218
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

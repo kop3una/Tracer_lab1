@@ -33,9 +33,13 @@ namespace ConsoleApp
             thread.Join();
             TraceResult traceResult = tracer.GetTraceResult();
             ISerialize XML = new XMLSerialize();
-            string xml = XML.serialize(traceResult); 
+            ISerialize JSON = new JSONSerialize();
+            string xml = XML.serialize(traceResult);
+            string json = JSON.serialize(traceResult);
             Console.WriteLine(xml);
-            File.WriteAllText("C://Users//kiril//OneDrive//Рабочий стол//Учеба//3 курс//СПП//trace.xml", xml);
+            Console.WriteLine(json);
+            File.WriteAllText("C://Users//kiril//OneDrive//Рабочий стол//Учеба//3 курс//СПП//lab1//trace.xml", xml);
+            File.WriteAllText("C://Users//kiril//OneDrive//Рабочий стол//Учеба//3 курс//СПП//lab1//trace.json", json);
             Console.ReadKey();
         }
     }
